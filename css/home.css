@@ -1,0 +1,37 @@
+body {
+  margin: 0
+}
+
+.header {
+  background-color: cyan; 
+}
+
+.header__navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+}
+
+.header__item {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.header__item:hover {
+  text-decoration: underline;
+}
+
+.header__item--active {
+  font-weight: bold;
+}

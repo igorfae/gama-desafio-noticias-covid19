@@ -3,38 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/home.css" />
-    <title>Noticias do Covid-19</title>
+    <link rel="stylesheet" href="css/homeNova.css" />
+    <link rel="stylesheet" href="css/sobre.css">
+    <title>Noticias sobre covid-19</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="header__navbar">
-        <div class="header__title">Covid-19 News</div>
-        <div>
-          <ul class="header__list">
-            <li class="header__item header__item--active">
-              <a href="index.html">Home</a></li>
-            <li class="header__item">
-              <a href="sobre.html">Sobre</a></li>
-            <li class="header__item">
-              <a href="contato.html">Contato</a></li>
-            <li class="header__item">
-              <a href="saibamais.html">Saiba Mais</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
     <div class="container">
-      <main class="main">
-       
-      </main>
-    </div>
-    <footer class="footer">
-      <div>
-        <p>Desenvolvido por Igor Fae</p>
-        <p>Desafio Covid-19 - Gama Academy</p>
+      <div id="navbar">
+        <div id="navbar__logo">
+          Covid-19 News
+        </div>
+        <div id="navbar__menu">
+          <a class="navbar__link" href="indexNova.html">NovaHome</a>
+          <a class="navbar__link" href="index.html">Home</a>
+          <a class="navbar__link" href="sobre.html">Sobre</a>
+          <a class="navbar__link" href="">Contato</a>
+          <a class="navbar__link" href="">Saiba Mais</a>
+        </div>
       </div>
-    </footer>
+      
+      <div id="informacoes">
+        <!--Divisão direita-->
+        <div class="informarcoes__card" id="informarcoes__card--direita">
+          <div id="informacoes__fotoPrincipal">
+            <img src="imagens/foto.jpg" alt="">
+          </div>
+          <div id="informacoes__download">
+            <button id="informacoes__botaoDownload">
+              Baixar o currículo
+            </button>
+          </div>
+          <div class="informacoes__footer">
+            <p>Disponivel para freelances</p>
+          </div>
+        </div>
+
+        <!--Divisão esquerda-->
+        <div class="informarcoes__card" id="informarcoes__card--esquerda">
+          <div id="informacoes__header">
+            <h3>Olá eu sou Igor S. Faé</h3>
+            <h4>Desenvolvedor de Software</h4>
+          </div>
+          <div id="informacoes__body">
+            <p>Sou formado em Administração de Empresas e Pós graduação em finanças de mercado de capitais, estou no 3° ano de ciência da computação e parei essa ano para fazer uma pós graduação em engenharia de software, pois a 3 anos venho migrando da área de finanças para TI, no trabalho nossa stack é .net core e angular, tenho também estudado react e gatbsy, no trabalho também estudo salesforce.</p>
+          </div>
+          <div id="informacoes__redesSociais">
+            <img  class="informacoes_iconesRedesSociais" src="imagens/facebook-brands.svg"/>
+            <img  class="informacoes_iconesRedesSociais" src="imagens/github-brands.svg"/>
+            <img  class="informacoes_iconesRedesSociais" src="imagens/gitlab-brands.svg"/>
+            <img  class="informacoes_iconesRedesSociais" src="imagens/at-solid.svg"/>
+            <img  class="informacoes_iconesRedesSociais" src="imagens/twitter-brands.svg"/>
+            <img  class="informacoes_iconesRedesSociais" src="imagens/linkedin-brands.svg"/>                     
+          </div>
+        </div><!--Fim Divisão esquerda-->
+      
+      </div>
+      
+      
+      <div class="footer">        
+        <p>Desenvolvido por Igor Fae</p>
+        <p>Desafio Covid-19 - Gama Academy</p>        
+      </div>
+
+    </div.informarcoes__direita>
   </body>
 </html>

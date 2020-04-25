@@ -1,0 +1,38 @@
+#informacoes {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+	
+}
+
+#informacoes__fotoPrincipal img{
+  width: 100%;
+}
+
+.informarcoes__card {
+  padding: 20px;
+  margin: 10px 20px 30px 20px;
+  box-shadow: black 2px 2px 5px;
+}
+
+#informarcoes__card--direita {
+  width: 30%;
+  
+}
+
+#informarcoes__card--esquerda {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;  
+}
+
+#informacoes__redesSociais{
+  display: flexbox;
+}
+
+.informacoes_iconesRedesSociais {
+  width: 30px;
+  padding: 10px 10px 10px 0px;
+}

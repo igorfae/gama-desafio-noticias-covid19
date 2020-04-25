@@ -1,0 +1,97 @@
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url("../imagens/navbar_covid_fundo.png");
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: space-between;  
+  background-color: whitesmoke;
+  opacity: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;  
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  
+}
+
+#navbar__logo {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+#navbar__menu {
+  display: flex;  
+}
+
+.navbar__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar__link:hover {
+  background-color: darkgrey;  
+  color: white;  
+}
+
+#noticias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardNoticia {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.cardNoticia__header img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.cardNoticia__header iframe {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.footer {  
+  background-color: black;
+  opacity: 90%;
+  width: 100%;
+  text-align: right;  
+  color: white;
+  padding: 2.4%;
+  margin-left: -2.4%;
+  margin-bottom: -2.3%;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;  
+}
+
+hr {
+  width: 100%;
+  padding: 2.35%;
+  margin-left: -2.4%;
+  margin-bottom: -2.3%;
+  
+}
